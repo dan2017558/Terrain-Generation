@@ -1,5 +1,5 @@
 # Ignore the virtual environment
-venv_terrain_generation/
+venv/
 
 # Ignore compiled Python files
 __pycache__/
