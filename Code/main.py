@@ -21,7 +21,7 @@ while True:
     graphics.draw_noise(heightmap)
 
     if water.cleared != 0:
-        water.clear_water(heightmap, 30)
+        water.clear_water(heightmap, 50)
 
     pygame.time.Clock().tick(1)
     pygame.display.update()

@@ -3,7 +3,7 @@ from pygame.locals import *
 
 # Constants
 PIXELS = [960, 720]
-GRID_SIZE = [240, 180]
+GRID_SIZE = [120, 90]
 
 pygame.init()
 pygame.display.set_caption("Terrain Generation")

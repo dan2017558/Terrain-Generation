@@ -26,7 +26,7 @@ def create_heightmap():
             combined_noise = 0
             for layer_index in range(len(noise_layers)):
 
-                amplitude = 1 * PERSISTANCE**(layer_index)
+                amplitude = 2 * PERSISTANCE**(layer_index)
                 frequency_contribution = noise_layers[layer_index](
                     [grid_row / graphics.GRID_SIZE[1], grid_col / graphics.GRID_SIZE[0]]
                 )
